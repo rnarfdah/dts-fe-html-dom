@@ -48,35 +48,57 @@
     <!-- Header -->
     <header class="jumbotron text-center backgroundJumbo">
         <!-- display class ini khusus di h -->
-        <h1 class="display-3">Berita Terkini</h1>
-        <p>Berita terkini yang pernah ada</p>
+        <h1 class="display-3">Gadget</h1>
+        
     </header>
 
     <!-- Konten -->
     <div class="container">
         <div class="row">
-            <div class="col-sm-4">
-                <h3>Lubang Ozon Antartika Melebar Catat Rekor Terbesar</h3>
-                <img src="img/artikel1.jpeg" alt="lubang ozon" width="100%">
-                <p>Program observasi European Union's Earth menyebutkan, lubang ozon di atas Antartika telah membengkak
-                    ke ukuran terbesar dan level terdalamnya dalam beberapa tahun terakhir.</p>
-            </div>
-            <div class="col-sm-4">
-                <h3>iPhone 12 Diumumkan Besok, Ini Bocoran Lengkapnya!</h3>
-                <img src="img/artikel2.jpeg" alt="lubang ozon" width="100%">
-                <p> iPhone 12 bakal diumumkan 13 Oktober 2020. Begitu banyak informasi soal ponsel ini yang telah
-                    terungkap, berikut ini bocoran lengkapnya.</p>
-            </div>
-            <div class="col-sm-4">
-                <img src="https://akcdn.detik.net.id/community/media/visual/2020/05/23/d44886bd-e35d-434e-92e8-cdb72f8badab_169.jpeg?w=700&q=90"
-                    alt="lubang ozon" width="100%">
-                <h3>Negara-negara Ini Sudah Diselimuti 5G, Indonesia Kapan?</h3>
-                <p>Di saat Indonesia masih mengandalkan 4G untuk internet cepat dan itu pun belum merata, sejumlah
-                    negara malah sudah selangkah di depan. Mereka telah menyelimuti sejumlah daerahnya dengan jaringan
-                    5G, negara mana saja?</p>
-            </div>
-        </div>
+        <div id="demo" class="carousel slide" data-ride="carousel">
 
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+          
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img width="100%"  src="https://images.immediate.co.uk/production/volatile/sites/4/2020/05/ShiftCam-Multilens-iPhone-11-case-cool-gadgets-aad28a9.jpg?quality=90&resize=940,705" alt="Gadget 1">
+                <div class="carousel-caption">
+                    <h3>Gadget 1</h3>
+                    <p>The new gagdet in 2020!</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img width="100%"  src="https://www.giftsicle.com/wp-content/uploads/2019/07/phonesoap-3-tech-gadget-2020-e1566835948529.jpg" alt="Gadget 2">
+                <div class="carousel-caption">
+                    <h3>Gadget 2</h3>
+                    <p>The most wishlist for everyone!</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img width="100%"  src="https://cdn.idntimes.com/content-images/post/20200117/18-alienware-concept-ufo-gaming-device-484105d2d3f6caf01bb060ed653aee29_600x400.jpg" alt="Gadget 3">
+                <div class="carousel-caption">
+                    <h3>Gadget 3</h3>
+                    <p>everyone want to try this one!</p>
+                  </div>
+              </div>
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          
+          </div>
+          </div>
         <!-- The Modal -->
   <div class="modal" id="myModal">
     <div class="modal-dialog">
