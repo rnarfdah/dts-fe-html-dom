@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="pesan" onclick="ubahAku(this)">selamat datang di dom</p>
+    <button onclick="myFunction()">warna merah</button>
+    <button onclick="myFunction2()">warna hijau</button>
+    <button onclick="myFunction3()">warna kuning</button>
+
+    <script>
+        //cara lama
+        function myFunction() {
+            const p = document.getElementById("pesan");
+            p.style.color="red";
+        }
+
+        //cara baru gunain const
+        const myFunction2 = () => { 
+        const p = document.getElementById("pesan");
+            p.style.color="green";
+        }
+
+        const myFunction3 = () => {
+        const p = document.getElementById("pesan");
+            p.style.color="yellow";
+        }
+
+        const ubahAku = (id) => {
+            // id.style.color="violet";
+            // id.innerHTML = "tulisan berubah";
+            if (id.innerHTML == "tulisan berubah") {
+                id.innerHTML = "selamat datang di dom";
+                id.style.color="black";
+            }
+            else {
+                id.innerHTML = "tulisan berubah";
+                id.style.color="blue";
+            }
+        }
+
+    </script>
+</body>
+</html>
